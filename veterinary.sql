@@ -83,3 +83,16 @@ VALUES
 (8, 'Max', 'Dog', 'German Shepherd', '2018-04-18', 'Male', 'Black and Tan', 8),
 (9, 'Snowball', 'Cat', 'Ragdoll', '2020-08-22', 'Female', 'White', 9),
 (10, 'Coco', 'Dog', 'Poodle', '2021-01-10', 'Female', 'Cream', 10);
+
+INSERT INTO appointments (appointid, animalid, appointdate, reason)
+VALUES
+(1, 1, '2023-01-05', 'Health Checkup'),
+(2, 2, '2023-01-10', 'Vaccination'),
+(3, 3, '2023-01-15', 'Sprained Leg'),
+(4, 4, '2023-01-20', 'Dental Cleaning'),
+(5, 5, '2023-02-01', 'Skin Infection'),
+(6, 6, '2023-02-05', 'Flea Treatment'),
+(7, 7, '2023-02-12', 'Vaccination'),
+(8, 8, '2023-02-18', 'Spaying Surgery'),
+(9, 9, '2023-02-25', 'Allergic Reaction'),
+(10, 10, '2023-03-01', 'Eye Infection');
