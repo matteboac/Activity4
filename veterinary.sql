@@ -71,4 +71,15 @@ VALUES
 (9, 'Kester', 'Cruz', 'Lipa', '09334422557', 'kester@exmaple.com'),
 (10, 'Lemon', 'Boac', 'Laguna', '09124365679', 'lemon@exmaple.com');
 
-
+INSERT INTO animals (animalid, name, species, breed, dateofbirth, gender, color, ownerid)
+VALUES
+(1, 'Whiskers', 'Cat', 'Persian', '2020-05-10', 'Female', 'White', 1),
+(2, 'Buddy', 'Dog', 'Labrador', '2019-07-21', 'Male', 'Brown', 2),
+(3, 'Mittens', 'Cat', 'Siamese', '2021-02-14', 'Male', 'Cream', 3),
+(4, 'Rocky', 'Dog', 'Bulldog', '2018-11-30', 'Male', 'Black', 4),
+(5, 'Luna', 'Cat', 'Maine Coon', '2020-03-12', 'Female', 'Gray', 5),
+(6, 'Charlie', 'Dog', 'Beagle', '2019-09-05', 'Male', 'Tri-color', 6),
+(7, 'Bella', 'Cat', 'Bengal', '2021-06-25', 'Female', 'Golden', 7),
+(8, 'Max', 'Dog', 'German Shepherd', '2018-04-18', 'Male', 'Black and Tan', 8),
+(9, 'Snowball', 'Cat', 'Ragdoll', '2020-08-22', 'Female', 'White', 9),
+(10, 'Coco', 'Dog', 'Poodle', '2021-01-10', 'Female', 'Cream', 10);
