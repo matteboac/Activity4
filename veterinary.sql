@@ -152,3 +152,5 @@ WHERE doctorid = 4;
 SELECT DISTINCT species FROM animals;
 SELECT SUM(totalamount) AS totalsales
 FROM invoices;
+
+SELECT ownerid FROM owners WHERE ofirstname = 'Maria';
